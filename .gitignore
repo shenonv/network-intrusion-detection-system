@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files - keep out of git)
+data/raw/
+data/processed/
+
+# Trained models (large binaries; feature_names.json stays tracked)
+models/*.pkl
+
+# IDE
+.idea/
+.vscode/
